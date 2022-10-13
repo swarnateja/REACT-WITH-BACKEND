@@ -1,0 +1,10 @@
+POST http://localhost:7777/api/auth/login
+
+{
+    "username":"swarnateja",
+    "password": "1234567"
+}
+
+###
+
+

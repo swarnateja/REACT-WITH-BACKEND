@@ -1,0 +1,69 @@
+.register{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/amst/image/upload/v1647450328/pexels-life-of-pix-7974_eovzn7.jpg');
+    background-size: cover;
+    font-family: 'Lora';
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerForm > input{
+    padding:  10px ;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(2, 116, 116);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(1, 60, 252, 0.938);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.error{
+    color: red;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}

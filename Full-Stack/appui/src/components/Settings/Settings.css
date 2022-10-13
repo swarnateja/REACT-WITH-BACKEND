@@ -1,0 +1,87 @@
+.settings{
+    display: flex;
+    margin: 20px;
+}
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(73, 6, 6, 0.747);
+    font-family: "roboto";
+    font-weight:600;
+}
+.settingsDeleteTitle{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-weight:600;
+    color: red;
+    cursor: pointer;
+
+}
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+}
+
+.settingsImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.settingsPPIcon{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    background-color: rgb(5, 5, 5);
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'lora';
+}
+
+.settingsForm > input{
+    color: aliceblue;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+.settingsSubmit{
+    width: 100px;
+    align-self: center;
+    border:none ;
+    border-radius: 7px;
+    color: white;
+    background-color: teal;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
